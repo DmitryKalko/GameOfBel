@@ -313,7 +313,7 @@ if(clickCounter === 1) {
 	moovingSquare.style.display = "none"; 
 	finalBlock.style.display = 'flex';
 	if(mainCounter > 5) {
-	//finalMusic(); 
+	finalMusic(); 
 		buttonNext.style.display = 'none';
 		buttonFinal.style.display = 'flex';
 		const potatoFinal = document.querySelector('.potatoFinal');
